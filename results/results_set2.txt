@@ -1,0 +1,330 @@
+Threshold: 0.1
+Confusion Matrix:
+    True Positives (TP): 194
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 0
+
+Accuracy: 1.000000
+Matthews Correlation Coefficient (MCC): 1.000000
+True Positive Rate (Sensitivity): 1.000000
+False Positive Rate: 0.000000
+Threshold: 0.01
+Confusion Matrix:
+    True Positives (TP): 193
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 1
+
+Accuracy: 0.999997
+Matthews Correlation Coefficient (MCC): 0.997418
+True Positive Rate (Sensitivity): 0.994845
+False Positive Rate: 0.000000
+Threshold: 0.001
+Confusion Matrix:
+    True Positives (TP): 193
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 1
+
+Accuracy: 0.999997
+Matthews Correlation Coefficient (MCC): 0.997418
+True Positive Rate (Sensitivity): 0.994845
+False Positive Rate: 0.000000
+Threshold: 0.0001
+Confusion Matrix:
+    True Positives (TP): 193
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 1
+
+Accuracy: 0.999997
+Matthews Correlation Coefficient (MCC): 0.997418
+True Positive Rate (Sensitivity): 0.994845
+False Positive Rate: 0.000000
+Threshold: 1e-05
+Confusion Matrix:
+    True Positives (TP): 192
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 2
+
+Accuracy: 0.999993
+Matthews Correlation Coefficient (MCC): 0.994829
+True Positive Rate (Sensitivity): 0.989691
+False Positive Rate: 0.000000
+Threshold: 1e-06
+Confusion Matrix:
+    True Positives (TP): 191
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 3
+
+Accuracy: 0.999990
+Matthews Correlation Coefficient (MCC): 0.992233
+True Positive Rate (Sensitivity): 0.984536
+False Positive Rate: 0.000000
+Threshold: 1e-07
+Confusion Matrix:
+    True Positives (TP): 190
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 4
+
+Accuracy: 0.999986
+Matthews Correlation Coefficient (MCC): 0.989630
+True Positive Rate (Sensitivity): 0.979381
+False Positive Rate: 0.000000
+Threshold: 1e-08
+Confusion Matrix:
+    True Positives (TP): 190
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 4
+
+Accuracy: 0.999986
+Matthews Correlation Coefficient (MCC): 0.989630
+True Positive Rate (Sensitivity): 0.979381
+False Positive Rate: 0.000000
+Threshold: 1e-09
+Confusion Matrix:
+    True Positives (TP): 190
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 4
+
+Accuracy: 0.999986
+Matthews Correlation Coefficient (MCC): 0.989630
+True Positive Rate (Sensitivity): 0.979381
+False Positive Rate: 0.000000
+Threshold: 1e-10
+Confusion Matrix:
+    True Positives (TP): 190
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 4
+
+Accuracy: 0.999986
+Matthews Correlation Coefficient (MCC): 0.989630
+True Positive Rate (Sensitivity): 0.979381
+False Positive Rate: 0.000000
+Threshold: 1e-11
+Confusion Matrix:
+    True Positives (TP): 188
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 6
+
+Accuracy: 0.999979
+Matthews Correlation Coefficient (MCC): 0.984404
+True Positive Rate (Sensitivity): 0.969072
+False Positive Rate: 0.000000
+Threshold: 1e-12
+Confusion Matrix:
+    True Positives (TP): 186
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 8
+
+Accuracy: 0.999972
+Matthews Correlation Coefficient (MCC): 0.979151
+True Positive Rate (Sensitivity): 0.958763
+False Positive Rate: 0.000000
+Threshold: 1e-13
+Confusion Matrix:
+    True Positives (TP): 185
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 9
+
+Accuracy: 0.999969
+Matthews Correlation Coefficient (MCC): 0.976513
+True Positive Rate (Sensitivity): 0.953608
+False Positive Rate: 0.000000
+Threshold: 1e-14
+Confusion Matrix:
+    True Positives (TP): 183
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 11
+
+Accuracy: 0.999962
+Matthews Correlation Coefficient (MCC): 0.971217
+True Positive Rate (Sensitivity): 0.943299
+False Positive Rate: 0.000000
+Threshold: 1e-15
+Confusion Matrix:
+    True Positives (TP): 178
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 16
+
+Accuracy: 0.999944
+Matthews Correlation Coefficient (MCC): 0.957849
+True Positive Rate (Sensitivity): 0.917526
+False Positive Rate: 0.000000
+Threshold: 1e-16
+Confusion Matrix:
+    True Positives (TP): 172
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 22
+
+Accuracy: 0.999923
+Matthews Correlation Coefficient (MCC): 0.941557
+True Positive Rate (Sensitivity): 0.886598
+False Positive Rate: 0.000000
+Threshold: 1e-17
+Confusion Matrix:
+    True Positives (TP): 164
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 30
+
+Accuracy: 0.999895
+Matthews Correlation Coefficient (MCC): 0.919387
+True Positive Rate (Sensitivity): 0.845361
+False Positive Rate: 0.000000
+Threshold: 1e-18
+Confusion Matrix:
+    True Positives (TP): 149
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 45
+
+Accuracy: 0.999843
+Matthews Correlation Coefficient (MCC): 0.876311
+True Positive Rate (Sensitivity): 0.768041
+False Positive Rate: 0.000000
+Threshold: 1e-19
+Confusion Matrix:
+    True Positives (TP): 143
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 51
+
+Accuracy: 0.999822
+Matthews Correlation Coefficient (MCC): 0.858477
+True Positive Rate (Sensitivity): 0.737113
+False Positive Rate: 0.000000
+Threshold: 1e-20
+Confusion Matrix:
+    True Positives (TP): 138
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 56
+
+Accuracy: 0.999805
+Matthews Correlation Coefficient (MCC): 0.843327
+True Positive Rate (Sensitivity): 0.711340
+False Positive Rate: 0.000000
+Threshold: 1e-21
+Confusion Matrix:
+    True Positives (TP): 133
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 61
+
+Accuracy: 0.999787
+Matthews Correlation Coefficient (MCC): 0.827902
+True Positive Rate (Sensitivity): 0.685567
+False Positive Rate: 0.000000
+Threshold: 1e-22
+Confusion Matrix:
+    True Positives (TP): 116
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 78
+
+Accuracy: 0.999728
+Matthews Correlation Coefficient (MCC): 0.773159
+True Positive Rate (Sensitivity): 0.597938
+False Positive Rate: 0.000000
+Threshold: 1e-23
+Confusion Matrix:
+    True Positives (TP): 111
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 83
+
+Accuracy: 0.999710
+Matthews Correlation Coefficient (MCC): 0.756306
+True Positive Rate (Sensitivity): 0.572165
+False Positive Rate: 0.000000
+Threshold: 1e-24
+Confusion Matrix:
+    True Positives (TP): 91
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 103
+
+Accuracy: 0.999641
+Matthews Correlation Coefficient (MCC): 0.684765
+True Positive Rate (Sensitivity): 0.469072
+False Positive Rate: 0.000000
+Threshold: 1e-25
+Confusion Matrix:
+    True Positives (TP): 70
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 124
+
+Accuracy: 0.999567
+Matthews Correlation Coefficient (MCC): 0.600557
+True Positive Rate (Sensitivity): 0.360825
+False Positive Rate: 0.000000
+Threshold: 1e-26
+Confusion Matrix:
+    True Positives (TP): 48
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 146
+
+Accuracy: 0.999491
+Matthews Correlation Coefficient (MCC): 0.497289
+True Positive Rate (Sensitivity): 0.247423
+False Positive Rate: 0.000000
+Threshold: 1e-27
+Confusion Matrix:
+    True Positives (TP): 27
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 167
+
+Accuracy: 0.999417
+Matthews Correlation Coefficient (MCC): 0.372953
+True Positive Rate (Sensitivity): 0.139175
+False Positive Rate: 0.000000
+Threshold: 1e-28
+Confusion Matrix:
+    True Positives (TP): 25
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 169
+
+Accuracy: 0.999410
+Matthews Correlation Coefficient (MCC): 0.358873
+True Positive Rate (Sensitivity): 0.128866
+False Positive Rate: 0.000000
+Threshold: 1e-29
+Confusion Matrix:
+    True Positives (TP): 23
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 171
+
+Accuracy: 0.999403
+Matthews Correlation Coefficient (MCC): 0.344218
+True Positive Rate (Sensitivity): 0.118557
+False Positive Rate: 0.000000
+Threshold: 1e-30
+Confusion Matrix:
+    True Positives (TP): 21
+    False Positives (FP): 0
+    True Negatives (TN): 286421
+    False Negatives (FN): 173
+
+Accuracy: 0.999396
+Matthews Correlation Coefficient (MCC): 0.328910
+True Positive Rate (Sensitivity): 0.108247
+False Positive Rate: 0.000000
