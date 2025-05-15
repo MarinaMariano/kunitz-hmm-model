@@ -32,10 +32,30 @@ This project aims to build a **profile Hidden Markov Model (HMM)** to identify K
 
 ## 📊 Results Summary
 
-- Optimal threshold selected: `0.01` based on MCC
-- AUC = 1.000 on both validation sets
-- Model demonstrates strong generalization and discriminatory power
-
+The performance of the Hidden Markov Model was evaluated through a comprehensive validation pipeline using two independent test sets (set_1 and set_2) constructed from SwissProt sequences. The key steps and metrics include:
+Threshold Optimization:
+A range of E-value cutoffs (from 0.1 to 1e-30) was explored to identify the optimal threshold for classification. The best performance, in terms of Matthews Correlation Coefficient (MCC), was achieved at a threshold of 0.01, which was selected as the final decision boundary.
+Confusion Matrix Analysis:
+At the optimal threshold:
+On set_1:
+True Positives (TP): 194
+False Positives (FP): 0
+False Negatives (FN): 0
+True Negatives (TN): 286,421
+MCC: 1.000
+On set_2:
+TP: 193
+FP: 0
+FN: 1
+TN: 286,421
+MCC: 0.997
+ROC Analysis:
+ROC curves were plotted for both validation sets by transforming E-values into confidence scores (−log₁₀(E)). The Area Under the Curve (AUC) reached:
+AUC = 1.000 for both set_1 and set_2, indicating perfect or near-perfect discrimination between true Kunitz domain sequences and negatives.
+Robustness and Generalization:
+The model’s performance remained stable across validation sets, showing no overfitting and excellent generalization to unseen data. False positives were entirely absent, and false negatives were minimal (1 out of 194), suggesting the HMM is both highly sensitive and specific.
+Visual Evidence:
+Supporting figures (ROC curves, confusion matrices, structural overlays) are available in the images/ folder and discussed in detail in report.pdf.
 ## 📝 How to Use
 
 All steps and code used to build and evaluate the HMM model are provided in the Jupyter notebook [`kunitz_HMM.ipynb`](./kunitz_HMM.ipynb).
