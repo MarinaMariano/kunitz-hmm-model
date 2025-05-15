@@ -30,57 +30,80 @@ This project aims to build a **profile Hidden Markov Model (HMM)** to identify K
 - BLAST+ (for filtering positives)
 - [WebLogo](https://weblogo.berkeley.edu/) / [Skylign](https://skylign.org/) for sequence logo generation
 
-## Results Summary
+## 📊 Results Summary
 
-The model’s performance was evaluated on two independent test sets (set_1 and set_2) derived from SwissProt sequences.
+The model’s performance was evaluated on two independent test sets (`set_1` and `set_2`) derived from SwissProt sequences.
+
 Below is a summary of the key evaluation metrics:
-🔍 Threshold Optimization
-E-value thresholds from 0.1 to 1e-30 were scanned.
-The optimal threshold selected was 0.01, as it maximized the Matthews Correlation Coefficient (MCC).
-✅ Confusion Matrix Results (at threshold = 0.01)
-Set 1
-True Positives (TP): 194
-False Positives (FP): 0
-False Negatives (FN): 0
-True Negatives (TN): 286,421
-MCC: 1.000
-Set 2
-True Positives (TP): 193
-False Positives (FP): 0
-False Negatives (FN): 1
-True Negatives (TN): 286,421
-MCC: 0.997
-📈 ROC Curve Analysis
-E-values were transformed to confidence scores using:
-−
-log
-⁡
-10
-(
-E-value
-)
-−log 
-10
-​	
- (E-value)
-The Area Under the Curve (AUC) was:
-AUC = 1.000 for both set_1 and set_2
-This indicates perfect or near-perfect discrimination between true and false sequences.
-🧠 Generalization
-The model shows excellent generalization to unseen data.
-No overfitting was observed.
-No false positives across both sets.
-Only 1 false negative in total (out of 194 positives).
-High sensitivity and specificity.
-🗂️ Visual Results
-Supporting figures (ROC curves, confusion matrices, structural overlays) are available in the images/ folder.
-Full analysis and discussion are provided in the report.pdf.
+
+---
+
+### 🔍 Threshold Optimization
+
+- E-value thresholds from **0.1 to 1e-30** were scanned.  
+- The **optimal threshold** selected was **0.01**, as it maximized the **Matthews Correlation Coefficient (MCC)**.
+
+---
+
+### ✅ Confusion Matrix Results (at threshold = 0.01)
+
+**Set 1**
+- True Positives (TP): 194  
+- False Positives (FP): 0  
+- False Negatives (FN): 0  
+- True Negatives (TN): 286,421  
+- **MCC:** 1.000  
+
+**Set 2**
+- True Positives (TP): 193  
+- False Positives (FP): 0  
+- False Negatives (FN): 1  
+- True Negatives (TN): 286,421  
+- **MCC:** 0.997
+
+---
+
+### 📈 ROC Curve Analysis
+
+- E-values were transformed to confidence scores using:  
+  \(-\log_{10}(\text{E-value})\)
+- The **Area Under the Curve (AUC)** was:
+  - **AUC = 1.000** for both `set_1` and `set_2`
+- This indicates **perfect or near-perfect discrimination** between true and false sequences.
+
+---
+
+### 🧠 Generalization
+
+- The model shows **excellent generalization** to unseen data.
+- **No overfitting** was observed.
+- No false positives across both sets.
+- Only 1 false negative in total (out of 194 positives).
+- High **sensitivity** and **specificity**.
+
+---
+
+### 🗂️ Visual Results
+
+- Supporting figures (ROC curves, confusion matrices, structural overlays) are available in the `images/` folder.
+- Full analysis and discussion are provided in the `report.pdf`.
+
+---
+
+## 📝 How to Use
+
+All steps and code used to build and evaluate the HMM model are provided in the Jupyter notebook [`kunitz_HMM.ipynb`](./kunitz_HMM.ipynb).
+
+It includes:
+- Data collection and filtering
+- Multiple and structural alignment
+- HMM construction and scanning
+- Threshold selection and evaluation (MCC, AUC, confusion matrix, ROC curves)
+
+Figures and results referenced in the report are saved in the `images/` and `results/` folders.
 
 ## 👩‍🎓 Author
 
 Marina Mariano  
 Master’s Degree in Bioinformatics  
 University of Bologna
-
----
-
