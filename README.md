@@ -3,7 +3,7 @@
 Project for detecting Kunitz domains using a profile HMM.  
 Master’s Degree in Bioinformatics, University of Bologna.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 - `raw_data/`: Input files such as FASTA sequences and training datasets  
 - `results/`: Output files including `.class` results and performance metrics  
@@ -12,7 +12,7 @@ Master’s Degree in Bioinformatics, University of Bologna.
 - `report.pdf`: Final written report summarizing the project  
 - `README.md`: This file
 
-## 🧪 Project Overview
+##  Project Overview
 
 This project aims to build a **profile Hidden Markov Model (HMM)** to identify Kunitz-type protease inhibitor domains in protein sequences. The pipeline involves:
 
@@ -22,7 +22,7 @@ This project aims to build a **profile Hidden Markov Model (HMM)** to identify K
 - Scanning sequences using `hmmsearch`
 - Evaluating model performance using metrics such as **MCC**, **F1-score**, and **ROC AUC**
 
-## 🔧 Tools & Dependencies
+##  Tools & Dependencies
 
 - [HMMER](http://hmmer.org/)
 - Python 3 (with `numpy`, `matplotlib`, `seaborn`)
@@ -30,7 +30,7 @@ This project aims to build a **profile Hidden Markov Model (HMM)** to identify K
 - BLAST+ (for filtering positives)
 - [WebLogo](https://weblogo.berkeley.edu/) / [Skylign](https://skylign.org/) for sequence logo generation
 
-## 📊 Results Summary
+##  Results Summary
 
 The model’s performance was evaluated on two independent test sets (`set_1` and `set_2`) derived from SwissProt sequences.
 
@@ -38,14 +38,14 @@ Below is a summary of the key evaluation metrics:
 
 ---
 
-### 🔍 Threshold Optimization
+###  Threshold Optimization
 
 - E-value thresholds from **0.1 to 1e-30** were scanned.  
 - The **optimal threshold** selected was **0.01**, as it maximized the **Matthews Correlation Coefficient (MCC)**.
 
 ---
 
-### ✅ Confusion Matrix Results (at threshold = 0.01)
+###  Confusion Matrix Results (at threshold = 0.01)
 
 **Set 1**
 - True Positives (TP): 194  
@@ -63,7 +63,7 @@ Below is a summary of the key evaluation metrics:
 
 ---
 
-### 📈 ROC Curve Analysis
+###  ROC Curve Analysis
 
 - E-values were transformed to confidence scores using:  
   \(-\log_{10}(\text{E-value})\)
@@ -73,7 +73,7 @@ Below is a summary of the key evaluation metrics:
 
 ---
 
-### 🧠 Generalization
+###  Generalization
 
 - The model shows **excellent generalization** to unseen data.
 - **No overfitting** was observed.
@@ -83,14 +83,14 @@ Below is a summary of the key evaluation metrics:
 
 ---
 
-### 🗂️ Visual Results
+###  Visual Results
 
 - Supporting figures (ROC curves, confusion matrices, structural overlays) are available in the `images/` folder.
 - Full analysis and discussion are provided in the `report.pdf`.
 
 ---
 
-## 📝 How to Use
+##  How to Use
 
 All steps and code used to build and evaluate the HMM model are provided in the Jupyter notebook [`kunitz_HMM.ipynb`](./kunitz_HMM.ipynb).
 
@@ -102,7 +102,7 @@ It includes:
 
 Figures and results referenced in the report are saved in the `images/` and `results/` folders.
 
-## 👩‍🎓 Author
+##  Author
 
 Marina Mariano  
 Master’s Degree in Bioinformatics  
