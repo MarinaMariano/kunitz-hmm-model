@@ -45,7 +45,7 @@ Below is a summary of the key evaluation metrics:
 
 ---
 
-###  Confusion Matrix Results (at threshold = 0.01)
+###  Confusion Matrix Results (at threshold = 1e-6)
 
 **Set 1**
 - True Positives (TP): 194  
@@ -77,8 +77,8 @@ Below is a summary of the key evaluation metrics:
 
 - The model shows **excellent generalization** to unseen data.
 - **No overfitting** was observed.
-- No false positives across both sets.
-- Only 1 false negative in total (out of 194 positives).
+- 1 false positive for set 1 and 2 false positives for set 2.
+- 1 false negative in set 1 and 3 false nagatives for set 2.
 - High **sensitivity** and **specificity**.
 
 ---
