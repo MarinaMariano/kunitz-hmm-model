@@ -41,24 +41,24 @@ Below is a summary of the key evaluation metrics:
 ###  Threshold Optimization
 
 - E-value thresholds from **0.1 to 1e-30** were scanned.  
-- The **optimal threshold** selected was **0.01**, as it maximized the **Matthews Correlation Coefficient (MCC)**.
+- The **optimal threshold** selected was **1e-6**, as it maximized the **Matthews Correlation Coefficient (MCC)**.
 
 ---
 
 ###  Confusion Matrix Results (at threshold = 1e-6)
 
 **Set 1**
-- True Positives (TP): 194  
-- False Positives (FP): 0  
-- False Negatives (FN): 0  
-- True Negatives (TN): 286,421  
+- True Positives (TP): 181  
+- False Positives (FP): 1
+- False Negatives (FN): 1  
+- True Negatives (TN): 286,415  
 - **MCC:** 1.000  
 
 **Set 2**
-- True Positives (TP): 193  
-- False Positives (FP): 0  
-- False Negatives (FN): 1  
-- True Negatives (TN): 286,421  
+- True Positives (TP): 182  
+- False Positives (FP): 2  
+- False Negatives (FN): 3  
+- True Negatives (TN): 286,415  
 - **MCC:** 0.997
 
 ---
